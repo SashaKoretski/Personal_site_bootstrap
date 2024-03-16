@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="My first site">
+    <meta name="author" content="Alexandr Koretski">
+    <meta name="robots" content="all">
+    
+    <meta property="og:title" content="My first site">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title> Alexandr Koretski Web-Developer</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-9">
+                        <div class="logo">Alexandr Koretski</div>
+                    </div>
+                    
+                    <div class="px-0 col-xxl-7 offset-xxl-2 offset-xl-1 col-xl-8 d-lg-block col-lg-9 d-none menu">
+                        <ul>
+                            <li><a href="#aboutMeTitle">About me</a></li>
+                            <li><a href="#whatCanIDoTitle">Services</a></li>
+                            <li><a href="#casesTitle">Cases</a></li>
+                            <li><a href="#priceTitle">Price</a></li>
+                            <li><a href="#reviewsTitle">Feedback</a></li>
+                            <li><a href="#contactsTitle">Contacts</a></li>
+                        </ul>
+                    </div>
+                    
+                  <!--  <div class="dropdown d-none d-lg-flex d-md-flex d-sm-flex d-xl-none d-xxl-none offset-lg-7 col-lg-2 offset-md-5 col-md-3 ofset-sm-2 col-sm-4 flex-column justify-content-center align-items-end">
+                        <a class="btn btn-outline-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            NAVIGATION
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">About me</a></li>
+                            <li><a class="dropdown-item" href="#">Services</a></li>
+                            <li><a class="dropdown-item" href="#">Cases</a></li>
+                            <li><a class="dropdown-item" href="#">Price</a></li>
+                            <li><a class="dropdown-item" href="#">Feedback</a></li>
+                            <li><a class="dropdown-item" href="#">Contacts</a></li>
+                        </ul>
+                    </div> -->
+                    
+                    <div class="dropdown d-flex d-lg-none ofset-xs-0 col-3 flex-column justify-content-center">
+                        <a class="btn btn-outline-light dropdown-toggle" href="#" role="button" id="dropdownMenuLinkPhone" data-bs-toggle="dropdown" aria-expanded="false">
+                            
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#aboutMeTitle">About me</a></li>
+                            <li><a class="dropdown-item" href="#whatCanIDoTitle">Services</a></li>
+                            <li><a class="dropdown-item" href="#casesTitle">Cases</a></li>
+                            <li><a class="dropdown-item" href="#priceTitle">Price</a></li>
+                            <li><a class="dropdown-item" href="#reviewsTitle">Feedback</a></li>
+                            <li><a class="dropdown-item" href="#contactsTitle">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>    
+    </header>
+    
+    <main>
+    
+    <section class="main">
+        <div class="container d-flex h-100">
+            <div class="row d-flex align-items-center h-100">
+                <div class="col-sm-8 col-xs-12">   
+                    <div class="main_title">
+                        <h1 id="mainTitle">Hello, world<br>I'm Alexandr Koretski</h1>
+                        <h4>Novice web-developer</h4>
+                        <a href="#aboutMeTitle"> <input type="button" value="About me"></a>
+                        <a href="#casesTitle"> <input type="button" value="My works"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+    <section class="about_me" id="aboutMeTitle">
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <div class="about_me_title">
+                    <h2>About me</h2>
+                    <h3>_____</h3>
+                    <img src="img/portret_fin1.jpg" alt="\(@^0^@)/" width="10%">
+
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum recusandae, tenetur itaque nemo, laboriosam necessitatibus rerum maxime cupiditate ut, eos animi sunt molestias alias! Vitae ratione et cumque totam eius doloremque quidem nemo odit placeat.</h5>
+
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam deserunt, magnam delectus dicta. Perferendis consectetur asperiores excepturi, ea iusto nesciunt tempore fugit delectus quisquam officia voluptates officiis.</h5>
+
+                    <input type="submit" value="Download my resume">
+                </div>
+            </div>
+        </div>
+    </section>
+     
+    <section class="what_can_i_do" id="whatCanIDoTitle">
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <div class="what_can_i_do_title">
+                    <h2> What can I do</h2>
+                    <h4>_____</h4>
+
+                    <div class="what_can_i_do_table_big col-sm-12 d-sm-block d-none">
+                        <div class="what_can_i_do_table col-3">
+                            <img src="img/comp.png" alt="▦">
+                            <h3>Web-design</h3>
+                            <h5>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Rerum, veritatis.</h5>
+                        </div>
+
+                        <div class="what_can_i_do_table col-3">
+                            <img src="img/develop.png" alt="▦">
+                            <h3>Development</h3>
+                            <h5>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. <br>Id placeat quidem quaerat,<br>dolorem!</h5>
+                        </div>
+
+                        <div class="what_can_i_do_table col-3">
+                            <img src="img/CEO.png" alt="▦">
+                            <h3>CEO-optimization</h3>
+                            <h5>Lorem ipsum dolor<br> sit amet, consectetur<br> adipisicing elit. <br>Atque, vero, et.</h5>
+                        </div>
+
+                        <div class="what_can_i_do_table col-3">
+                            <img src="img/marketing.png" alt="▦">
+                            <h3>Marketing</h3>
+                            <h5>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. <br>Enim debitis ea dolor delectus<br> temporibus.</h5>
+                        </div>
+                    </div>
+                    <div class="what_can_i_do_table_small d-sm-none">
+                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <div class="what_can_i_do_table col-12">
+                                        <img src="img/comp.png" alt="▦">
+                                        <h3>Web-design</h3>
+                                        <h5>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Rerum, veritatis.</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <div class="what_can_i_do_table col-12">
+                                        <img src="img/develop.png" alt="▦">
+                                        <h3>Development</h3>
+                                        <h5>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. <br>Id placeat quidem quaerat,<br>dolorem!</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="what_can_i_do_table col-12">
+                                        <img src="img/CEO.png" alt="▦">
+                                        <h3>CEO-optimization</h3>
+                                        <h5>Lorem ipsum dolor<br> sit amet, consectetur<br> adipisicing elit. <br>Atque, vero, et.</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="what_can_i_do_table col-12">
+                                        <img src="img/marketing.png" alt="▦">
+                                        <h3>Marketing</h3>
+                                        <h5>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. <br>Enim debitis ea dolor delectus<br> temporibus.</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Предыдущий</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Следующий</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section class="cases_main d-none d-xxl-block" id="casesTitle">
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <div class="cases_title">
+                    <h2> Cases</h2>
+                    <h3>_____</h3>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <a href="https://yandex.ru"><img src="img/my-site-3.jpg" class="d-block w-100" alt="..."></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>yandex.ru</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, eligendi sed sit.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <a href="https://sashakoretski.github.io.dist"><img src="img/My_site_first_steps.jpg" class="d-block w-100" alt="..."></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>sashakoretski.github.io.src</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium sapiente minima, laudantium ea doloribus officiis atque aliquid!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://google.ru"><img src="img/my_site_2.jpg" class="d-block w-100" alt="..."></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                <h5>google.com</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cases_laptop d-none d-xxl-none d-xl-block d-lg-block d-mg-block d-sm-block" id="casesTitle">
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <div class="cases_title">
+                    <h2> Cases</h2>
+                    <h3>_____</h3>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <a href="https://yandex.ru"><img src="img/my-site-3.jpg" class="d-block w-100" alt="..."></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>yandex.ru</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, eligendi sed sit.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <a href="https://sashakoretski.github.io.dist"><img src="img/My_site_first_steps.jpg" class="d-block w-100" alt="..."></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>sashakoretski.github.io.src</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium sapiente minima, laudantium ea doloribus officiis atque aliquid!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://google.ru"><img src="img/my_site_2.jpg" class="d-block w-100" alt="..."></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                <h5>google.com</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cases_phone d-sm-none d-xs-block" id="casesTitle">
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <div class="cases_title offset-1 col-10">
+                    <h2> Cases</h2>
+                    <h3>_____</h3>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <a href="https://yandex.ru"><img src="img/my-first-site-phone-1.png" class="d-block w-100" alt="..."></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>yandex.ru</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, eligendi sed sit.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <a href="https://sashakoretski.github.io.src"><img src="img/my-first-site-phone-2.png" class="d-block w-100" alt="..."></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>sashakoretski.github.io.src</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium sapiente minima, laudantium ea doloribus officiis atque aliquid!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://google.com"><img src="img/my-first-site-phone-3.png" class="d-block w-100" alt="..."></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                <h5>google.com</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     
+    <section class="price">
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <div class="price_title">
+                    <h2>Price calculation</h2>
+                    <p id="priceTitle">_____</p>
+
+                    <div class="price_table">
+                        <h4>Type</h4>
+                        <select name="site_type" id="list">
+                            <option value="site_type0" selected disabled>Choose an option...</option>
+                            <option value="site_type1">Online store</option>
+                            <option value="site_type2">Online showcase</option>
+                            <option value="site_type3">Blog</option>
+                        </select>
+                    </div>
+
+                    <div class="price_table">
+                        <h4>Design</h4>
+                        <select name="site_design" id="list">
+                            <option value="site_design0" selected disabled>Choose an option...</option>
+                            <option value="site_design1">Own</option>
+                            <option value="site_design2">From open access</option>
+                            <option value="site_design3">Registered</option>
+                        </select>
+                    </div>
+
+                    <div class="price_table">
+                        <h4>Adaptability</h4>
+                        <select name="site_adaptability" id="list">
+                            <option value="site_adaptability0" selected disabled>Choose an option...</option>
+                            <option value="site_adaptability1">Good</option>
+                            <option value="site_adaptability2">Better</option>
+                            <option value="site_adaptability3">The best</option>
+                        </select>
+                    </div>
+
+                    <h3>__________________________</h3>
+
+                    <div class="price_giver col-12">
+                        <h5>Deadline</h5> <h4>0</h4>
+                        <h5>Price</h5> <h4>0</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+    <section class="statistics" id="statsTitle">
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <div class="statistics_title">
+                    <h2>Some statistics</h2>
+                    <h4>_____</h4>
+
+                    <div class="statistic_table_big col-sm-12 d-sm-block d-none">
+                        <div class="statistics_table col-3">
+                            <img src="img/smile.png" alt="▦">
+                            <h3>0</h3>
+                            <h5>Happy castomers</h5>
+                        </div>
+
+                        <div class="statistics_table col-3">
+                            <img src="img/hours_of_work.png" alt="▦">
+                            <h3>Couple</h3>
+                            <h5>Hours of work</h5>
+                        </div>
+
+                        <div class="statistics_table col-3">
+                            <img src="img/check.png" alt="▦">
+                            <h3>0</h3>
+                            <h5>Projects over</h5>
+                        </div>
+
+                        <div class="statistics_table col-3">
+                            <img src="img/award.png" alt="▦">
+                            <h3>0</h3>
+                            <h5>Awards</h5>
+                        </div>
+                    </div>
+                    
+                    <div class="statistics_table_small d-sm-none">
+                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <div class="statistics_table col-12">
+                                        <img src="img/smile.png" alt="▦">
+                                        <h3>0</h3>
+                                        <h5>Happy castomers</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <div class="statistics_table col-12">
+                                        <img src="img/hours_of_work.png" alt="▦">
+                                        <h3>Couple</h3>
+                                        <h5>Hours of work</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="statistics_table col-12">
+                                        <img src="img/check.png" alt="▦">
+                                        <h3>0</h3>
+                                        <h5>Projects over</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="statistics_table col-12">
+                                        <img src="img/award.png" alt="▦">
+                                        <h3>0</h3>
+                                        <h5>Awards</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Предыдущий</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Следующий</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="reviews" id="reviewsTitle">
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <div class="reviews_title">
+                    <h2>Reviews</h2>
+                    <h4>_____</h4>
+                    
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <div class="statistics_table col-12">
+                                    <img src="img/portret_fin2.jpg" alt="▦">
+                                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus excepturi debitis laborum praesentium libero aliquam sunt, <br>quidem et beatae molestias dolorum labore quibusdam ducimus nulla repellendus iure dolore voluptate!</h5>
+                                    <h5><span>Mikhail</span>, president of air</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="statistics_table col-12">
+                                    <img src="img/portret-3.jpg" alt="▦">
+                                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident natus quo consequuntur! <br>Lorem ipsum dolor sit amet.</h5>
+                                    <h5><span>Alexsandr</span>, president of earth</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="statistics_table col-12">
+                                    <img src="img/portret-4.jpg" alt="▦">
+                                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure corrupti vero, perspiciatis repellendus nostrum earum. Magni.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, cum.</h5>
+                                    <h5><span>Victor</span>, president of fire</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="statistics_table col-12">
+                                    <img src="img/portret-5.jpg" alt="▦">
+                                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et a debitis saepe!<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+                                    <h5><span>Petr</span>, president of water</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Предыдущий</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Следующий</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contacts" id="contactsTitle">
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <div class="contacts_title">
+                    <h2>My contacts</h2>
+                    <h4>_____</h4>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
+
+                    <div class="contacts-big d-none d-lg-block">
+                        <div class="contacts_table col-4">
+                            <img src="img/place.png" alt="▦">
+                            <h4>Moscow<br>Kremlin</h4>
+                        </div>
+
+                        <div class="contacts_table col-4">
+                            <img src="img/email.png" alt="▦">
+                            <h4>sashakoretski@mail.ru</h4>
+                        </div>
+
+                        <div class="contacts_table col-4">
+                            <img src="img/phone.png" alt="▦">
+                            <h4>+7(777)777-77-77</h4>
+                        </div>
+                        <br>
+
+                        <div class="contacts_message col-12">
+                            <h3>Leave me a message</h3>
+                            <form action="#">
+                                <input type="text" name="castomers_name" placeholder="Name">
+                                <input type="text" name="castomers_email" placeholder="Email">
+                                <br>
+                                <textarea name="castomers_message" id="1" cols="30" rows="10" placeholder="Message"></textarea>
+                                <br>
+                                <input type="reset" value="Send">
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <div class="contacts-small d-lg-none">
+                       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <div class="contacts_table col-12">
+                                            <img src="img/phone.png" alt="▦">
+                                            <h4>phone<br>+7(777)777-77-77</h4>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <div class="contacts_table col-12">
+                                        <img src="img/place.png" alt="▦">
+                                        <h4>Moscow<br>Kremlin</h4>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="contacts_table col-12">
+                                        <img src="img/email.png" alt="▦">
+                                        <h4>mail<br>sashakoretski@mail.ru</h4>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Предыдущий</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Следующий</span>
+                            </button>
+                        </div>
+                        
+                        <br>
+
+                        <div class="contacts_message col-12">
+                            <form action="#">
+                                <input type="reset" value="Leave me a message">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="copyright">
+            <div class="container h-100">
+                <div class="row align-items-center h-100">
+                    <div class="copyright_title">
+                        <h3>Copyright©2021 Корецкий Александр. Design by me</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    </main>
+    
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
